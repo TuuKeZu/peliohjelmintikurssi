@@ -45,7 +45,7 @@ pygame.quit()
 ````
 
 ## Tehtävänanto
-> Tee yksinkertainen peli, jossa pallolla on painovoima ja sitä voidaan "pomputtaa" painamalla näppäimistön avulla
+> Tee yksinkertainen peli, jossa pallolla on painovoima ja sitä voidaan "pomputtaa" näppäimistön avulla
 - Palloon tulee vaikuttaa painvoima, eli sen pitää pudota kiihtyvvällä liikkeellä
 - Pallon ei tule pudota ikkunan ulkopuolelle
 - Painamalla `space`-näppäintä pallo "hyppää" ylöspäin
@@ -55,4 +55,4 @@ pygame.quit()
 
 ## Vinkkejä
 - Pallon kiihtyvyyttä vartten kannattaa tehdä oma muuttuja, joka ilmaisee pallon nopeuden muutoksen.
-- Kannattaa myös luoda oma muuttuja, joka kertoo onko pallo putoavassa liikkeessä
+- Kannattaa myös luoda oma muuttuja, joka kertoo onko pallo putoavassa liikkeessä vai paikallaan.
